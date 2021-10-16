@@ -7,18 +7,19 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #0e80b0;
+  background-image: linear-gradient(#3a6186, #ffd89b);
+  overflow: hidden;
 }
 
 .btn {
-  color: #e5dc15;
+  color: #cb2d3e;
   background-color: #fff;
   font-family: "Montserrat", sans-serif;
   margin: 15px;
   padding: 5px;
-  border: 2px solid #e5dc15;
+  border: 2px solid #000428;
   border-radius: 5px;
-  box-shadow: 0 12px #c2bb11, 0 18px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 12px #004e92, 0 18px rgba(0, 0, 0, 0.1);
   width: 90px;
   height: 80px;
   font-size: 60px;
@@ -26,14 +27,17 @@ body {
   position: relative;
   top: 0;
 }
+.green {
+  color: teal;
+}
 .disabled .btn {
   cursor: default;
 }
 .disabled .btn:hover {
   top: 0;
   background: #ffffff;
-  color: #e5dc15;
-  box-shadow: 0 12px #c2bb11, 0 18px rgba(0, 0, 0, 0.4);
+  color: #000428;
+  box-shadow: 0 12px #004e92, 0 18px rgba(0, 0, 0, 0.4);
 }
 
 .btn.disabled {
@@ -42,20 +46,20 @@ body {
 .btn.disabled:hover {
   top: 0;
   background: #ffffff;
-  color: #e5dc15;
-  box-shadow: 0 12px #c2bb11, 0 18px rgba(0, 0, 0, 0.4);
+  color: #000428;
+  box-shadow: 0 12px #004e92, 0 18px rgba(0, 0, 0, 0.4);
 }
 .btn:hover {
-  background-color: #e5dc15;
+  background-color: #000428;
   color: #0e80b0;
   top: 4px;
-  box-shadow: 0 8px #c2bb11, 0 14px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 8px #004e92, 0 14px rgba(0, 0, 0, 0.4);
 }
 .btn:active {
   top: 8px;
-  box-shadow: 0 4px #c2bb11, 0 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 4px #004e92, 0 10px rgba(0, 0, 0, 0.4);
 }
-.game{
+.game {
   display: flex;
   flex-wrap: wrap;
 }

@@ -56,10 +56,10 @@ const Game = () => {
       </li>
     );
   });
-  
+
   return (
     <>
-      <div className={winner?"game disabled":"game"}>
+      <div className={winner ? "game disabled" : "game"}>
         <div className="gameBoard">
           <GameBoard
             onClick={(i) => handleClick(i)}
