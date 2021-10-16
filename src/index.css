@@ -10,7 +10,18 @@ body {
   background-image: linear-gradient(#3a6186, #ffd89b);
   overflow: hidden;
 }
-
+.headingContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.headingContainer h1{
+  text-align: center;
+  color: #cb2d3e;
+}
+.headingContainer span{
+  color: teal;
+}
 .btn {
   color: #cb2d3e;
   background-color: #fff;
